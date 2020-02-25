@@ -7,7 +7,15 @@ range 0..23. We are in trouble if the parrot
  20. Return True if we are in trouble.
 """
 
-if talking == True and hour > 20 or hour < 7: 
-    return True 
-else: 
-    return False
+    # if talking == True and hour > 20 or hour < 7: 
+    #     return True 
+    # else: 
+    #     return False
+
+ if talking == True: 
+      if hour > 20 or hour < 7: 
+        return True 
+    if talking == False: 
+      return False
+    else: 
+        return False
